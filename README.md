@@ -5,7 +5,7 @@ featExtract is the program used to extract SIFT-Ranked features from images. It 
 
 #### Usage
 Volumetric local feature extraction v1.1  
-Usage: featExtract [options] \<input image\> \<output features\>  
+Usage: **featExtract [options] \<input image\> \<output features\>**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<input image\>: nifti (.nii,.hdr,.nii.gz).  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<output features\>: output file with features.  
 
@@ -29,9 +29,9 @@ Usage: featExtract [options] \<input image\> \<output features\>
 featMatchMultiple is the program, based on FLANN library, used to match features.
 
 #### Usage
-Volumetric Feature matching v1.1
-Usage: featMatchMultiple [options] -f \<input filelist\>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input filelist>: Text file containing the list of .key files (from featExtract). 1 key file per line.
+Volumetric Feature matching v1.1  
+Usage: **featMatchMultiple [options] -f \<input filelist\>**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<input filelist\>: Text file containing the list of .key files (from featExtract). 1 key file per line.
     
 #### Option
  <table>
