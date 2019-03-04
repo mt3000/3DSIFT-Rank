@@ -1,7 +1,7 @@
 # 3DSIFT-Rank
 
 ## FeatExtract
-featExtract is the program used to extract SIFT-Ranked features from images. It accepts nifti images (.nii, .hdr, .nii.gz) as input, and output a list of keypoints and their descriptors.
+featExtract is the program used to extract SIFT-Ranked [1] features from images. It accepts nifti images (.nii, .hdr, .nii.gz) as input, and output a list of keypoints and their descriptors.
 
 #### Usage
 Volumetric local feature extraction v1.1  
@@ -26,7 +26,7 @@ Usage: **featExtract [options] \<input image\> \<output features\>**
  The program will output a .key file (with the same name as the input file), containing a list of features, with their coordinates, scale, orientation, and descriptor.
  
 ## FeatMatchMultiple
-featMatchMultiple is the program, based on FLANN library, used to match features.
+featMatchMultiple is the program, based on FLANN library [2], used to match features.
 
 #### Usage
 Volumetric Feature matching v1.1  
@@ -60,3 +60,7 @@ The program will output different files:
     <td>vote_count.txt</td><td>NxN matrix containing the accumulation of the non-weighted votes for each pair of image.</td> 
   </tr>
  </table>
+
+# References
+[1] Toews, Matthew, and William Wells. "Sift-rank: Ordinal description for invariant feature correspondence." 2009 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2009.  
+[2] Muja, Marius, and David G. Lowe. "Scalable nearest neighbor algorithms for high dimensional data." IEEE transactions on pattern analysis and machine intelligence 36.11 (2014): 2227-2240.
