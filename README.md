@@ -64,7 +64,7 @@ The program will output different files:
  </table>
 
 # Data
-Data used in [ref] will be available soon.
+https://central.xnat.org/data/projects/SIFTFeatures
 
 # References
 [1] Toews, Matthew, and William Wells. "Sift-rank: Ordinal description for invariant feature correspondence." 2009 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2009.  
