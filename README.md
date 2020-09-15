@@ -1,4 +1,4 @@
-# Code will be available upon acceptation of the article
+
 
 # 3DSIFT-Rank
 
